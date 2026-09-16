@@ -13,7 +13,8 @@ st.set_page_config(
 )
 
 # Matplotlib 한글 폰트 설정 (Windows 기준 'Malgun Gothic')
-plt.rcParams['font.family'] = 'Malgun Gothic'
+#plt.rcParams['font.family'] = 'Malgun Gothic'
+plt.rc("font", family="NanumGothic")
 plt.rcParams['axes.unicode_minus'] = False
 
 st.header("🚇 서울 지하철 승각수 데이터 분석 대시보드")
